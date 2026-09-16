@@ -1,3 +1,6 @@
+#program automates the making of your submitttion assigment to a degree that you only have to enter your name,
+#roll no, answer to each question question as it is displayed one by one 
+#program arranges questions and answers just as nirnay sir told to do
 import pypdf
 from docx import Document
 def q1by1(file):
