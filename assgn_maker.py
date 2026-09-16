@@ -5,7 +5,7 @@
 #in this program, it read the file and separates the question based on the 'x.' with which they begin 
 #if the file were to have questions that began with, say 'x)', it wouldnt recognize that and the program
 #will fail to function
-#will improve if need be in future.
+#will improve if need be in future
 import pypdf
 from docx import Document
 def q1by1(file):
@@ -13,8 +13,8 @@ def q1by1(file):
     nam=input('Your Name: ')
     rno=input('your roll no. (like 20XXYYYXXX):')
     doc.add_paragraph(nam+'\n'+rno)
-    lines_t=''#to temporarily store some lines
-    lines_p=''#to premanently store some lines
+    lines_t='' #to temporarily store some lines
+    lines_p='' #to premanently store some lines
     reader=pypdf.PdfReader(file)
     for page in reader.pages:
         words=page.extract_text(extraction_mode='layout')
