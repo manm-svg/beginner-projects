@@ -1,11 +1,11 @@
-'''#program automates the making of your submitttion assigment to a degree that you only have to enter your name,
+prrint('''#program automates the making of your submitttion assigment to a degree that you only have to enter your name,
 #roll no, answer to each question question as it is displayed one by one 
 #program arranges questions and answers just as nirnay sir told to do
 #program recognizes quesion by the format by whuch the begin
 #in this program, it read the file and separates the question based on the 'x.' with which they begin 
 #if the file were to have questions that began with, say 'x)', it wouldnt recognize that and the program
 #will fail to function
-#will improve if need be in future'''
+#will improve if need be in future''')
 import pypdf
 from docx import Document
 def q1by1(file):
