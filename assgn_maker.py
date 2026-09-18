@@ -43,5 +43,5 @@ def q1by1(file):
     doc.save('tosubmit.docx')
 
 
-f=input('file name: ')
+f=input('assignment file path: ')
 q1by1(f)
